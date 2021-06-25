@@ -1,0 +1,60 @@
+
+  body {
+  background-color: papayawhip;
+}
+
+  li[class]{
+    margin: 10px;
+}
+
+  p[class] {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkblue;
+  background-color: lightblue;
+  border-bottom: 3px solid blue;
+  width: fit-content;
+  border-radius: 25px;  
+  margin: 2px;
+  padding: 3px;
+}
+
+li[name] {
+  list-style-type: none;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 20px;
+  padding: 3px;
+  margin: 2px;
+  width: max-content;
+  height: fit-content;
+}
+
+li[name]:hover {
+  background-color:skyblue;
+  border: navy solid 1px;
+  cursor: pointer;
+}
+
+li[class="selected"] {
+  background-color:rgb(17, 11, 90);
+  color:white;
+}
+
+.glow {
+  font-size: 60px;
+  color: #fff;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+  
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #06f1f1, 0 0 40px #06f1f1, 0 0 50px #06f1f1, 0 0 60px #06f1f1, 0 0 70px #06f1f1;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #62c8f0, 0 0 40px #62c8f0, 0 0 50px #62c8f0, 0 0 60px #62c8f0, 0 0 70px #62c8f0, 0 0 80px #62c8f0;
+  }
+}
+
+
+
+

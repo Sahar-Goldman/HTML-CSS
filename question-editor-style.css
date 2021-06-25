@@ -1,0 +1,78 @@
+html {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+input[type=text]:focus {
+  width: 250px;
+}
+
+label[for="question"], label[for="correct-answer"]{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: darkblue;
+  background-color: lightblue;
+  border-bottom: 3px solid blue;
+  width: fit-content;
+  border-radius: 25px;  
+  margin: 2px;
+  padding: 2px;
+} 
+
+input {
+  border-radius: 25px;
+  margin: 3px;
+  border:transparent; 
+  padding: 2px;
+}
+
+li {
+  margin: 8px;
+}
+
+.glow {
+    font-size: 60px;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+    
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #06f1f1, 0 0 40px #06f1f1, 0 0 50px #06f1f1, 0 0 60px #06f1f1, 0 0 70px #06f1f1;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #62c8f0, 0 0 40px #62c8f0, 0 0 50px #62c8f0, 0 0 60px #62c8f0, 0 0 70px #62c8f0, 0 0 80px #62c8f0;
+    }
+}
+
+button {
+  background-color:rgb(17, 11, 90);
+  color:white;
+  width: fit-content;
+  border-radius: 25px;
+  margin: 20px;
+  font-size:12pt;
+  padding: 2px;
+  border-bottom: 3px solid blue;
+  margin-left: 80px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[id="answer_1"] {
+  margin-left: 26px;
+}
+  
+input[id="answer_3"] {
+  margin-left: 21px;
+}
+
+input[id="answer_4"] {
+  margin-left: 20px;
+}
+  
+  
+  
+  

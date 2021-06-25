@@ -1,0 +1,67 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: papayawhip;
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-attachment:fixed;
+  }
+
+.glow {
+    font-size: 60px;
+    color: #fff;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+    
+@keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #06f1f1, 0 0 40px #06f1f1, 0 0 50px #06f1f1, 0 0 60px #06f1f1, 0 0 70px #06f1f1;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #62c8f0, 0 0 40px #62c8f0, 0 0 50px #62c8f0, 0 0 60px #62c8f0, 0 0 70px #62c8f0, 0 0 80px #62c8f0;
+    }
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+th {
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkblue;
+    background-color: lightblue;
+    border-bottom: 3px solid blue;
+    width: fit-content;
+    border-radius: 25px;  
+    margin: 2px;
+    padding: 2px;
+}
+
+img {
+    border: 2px solid rgb(108, 174, 236);
+    border-radius: 2px;
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+img:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 87, 186, 0.5);
+  }
+
+.red{
+      color:red;
+}
+
+.green{
+    color:green;
+}
